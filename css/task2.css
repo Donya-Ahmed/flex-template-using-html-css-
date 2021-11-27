@@ -1,0 +1,517 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/*global style*/
+.text-white{
+    color: white;
+}
+.paragraph-text{
+    color:    #585050;
+    
+    
+}
+.containar{
+    width: 90%;
+    margin: auto;
+    
+}
+.head-line{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 2%;
+}
+.head-sub{
+    font-weight: bolder;
+    font-size:22x ;
+    color: black;
+    margin-bottom: 2%;
+
+}
+.triangle{
+    height: 0%;
+    width: 0%;
+    border-top: 5px solid white;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+    margin-left: 2px;
+
+}
+.overlay{
+    height: 100%;
+    background-color: rgb(0 0 0 / 64%);
+}
+.triangle-div{
+    display: flex;
+    align-items: baseline;
+
+}
+.flex-display{
+    display: flex;
+    justify-content: space-between;
+}
+.travel{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    border: white 2px solid;
+    background: white;
+    color: blue;
+}
+.shadow{box-shadow: 0px 0px 4px 6px #d4cdcde7;
+}
+.margin-text{
+    margin-bottom: 3%;
+
+}
+.padding-text{
+    padding: 5%;
+}
+
+.a-text{
+    text-decoration: none;
+
+}
+.a-text p:hover{
+    color: blue;
+
+}
+
+.margin-text-ex{
+    margin-bottom: 15%;
+}
+.travel:hover{
+    background-color: blue;
+    color: white;
+    border: blue 2px solid;
+}
+.item-align{
+    align-items: center;
+}
+.border-right{
+    border-bottom: 2px solid rgba(223, 216, 216, 0.904);
+    border-top: 2px solid rgba(223, 216, 216, 0.904);
+}
+
+ 
+/*style page1*/
+#page1{
+    background-image: url(../images/image-bgr.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    margin-bottom: 5%;
+    
+    
+
+}
+#nav-page1{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 7px 0%;
+    position: fixed;
+    width: 100%;
+    
+    top: 0%;
+    margin-bottom: 2%;
+    border-bottom: 2px solid white;
+    padding: 2%;
+    z-index: 1;
+  
+    
+    
+}
+.ul-page1{
+    display: flex;
+    list-style-type: none;
+    width: 60%;
+    justify-content: space-around;
+}
+.ul-page1 a{
+    text-decoration: none;
+   
+}
+/* .hr-nav-style{
+    border: white 1px solid;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+     */
+
+.first-page-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 80%;
+}
+.page1-text {
+    display: inline-block;
+    height: 30px ;
+    width: 30px;
+    border-radius: 50%;
+   /* border-left: 3px white solid;
+    border-right: 3px rgb(51, 51, 219) solid;*/
+    text-align: center;
+    line-height: 2;
+    margin-right: 5px;
+    border: 5px solid blue;
+
+ 
+    border-left-color: lightblue;
+
+}
+.page1-text-set{
+    display: flex;
+    width: 25%;
+}
+.up-arrow{
+    position: fixed;
+    top:90%;
+    right:3%;
+}
+.up-arrow i{
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px black solid;
+    text-align: center;
+    line-height: 2;
+    background-color: black;
+
+}
+
+
+/*style page2*/
+
+/*left side*/
+#left{
+    width: 60%;
+}
+
+.triangle-aside {
+    height: 0%;
+    width: 0%;
+    border-top: 5px solid    rgb(28 26 26);
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+    margin-left: 2px;
+
+
+}
+.ul-page2{
+    display: flex;
+    list-style-type: none;
+    width: 75%;
+    justify-content: space-around;
+}
+.ul-page2 a{
+    text-decoration: none;
+   
+}
+.page2-nav{
+    margin-bottom: 3%;
+    border-bottom: 2px solid  #8080808f;
+    padding-bottom: 2px;
+  
+}
+.containar1{
+    position: relative;
+}
+.right-arrow{
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    margin-top: 3%;
+}
+.left-arrow{
+    position: absolute;
+    top: 100%;
+    right:  90%;
+    margin-top: 3%;
+}
+.set-i{
+    color: rgb(228, 217, 217);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px rgb(228, 217, 217) solid;
+    text-align: center;
+    line-height: 2;
+    background-color: white;
+
+}
+.set-i:hover{
+    color: white;
+    background-color: blue;
+    border: 2px blue solid;
+
+}
+
+.card1-containar1{
+    width: 40%;
+   
+}
+.card1-containar1-image{
+    background-image: url(../images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 40%;
+    position: relative;
+    margin-bottom: 3%;
+}
+.card2-containar1{
+    width: 50%;
+}
+.img-set{
+    height: 115px;
+    width: 90px;
+    margin-right: 3%;
+}
+
+/*class b*/
+.nav-classb {
+    margin-top: 10%;
+}
+.card1-containar2 , .card2-containar2{
+    width: 45%;
+
+}
+.card1-containar2-image{
+    background-image: url(../images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30%;
+    position: relative;
+    margin-bottom: 3%;
+
+}
+.card2-containar2-image{
+    background-image: url(../images/image5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30%;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+/*right side*/
+#right{
+    width: 25%;
+}
+.about-world h2{
+   /* border-bottom: 2px solid  #8080808f;*/
+    padding-bottom: 5%;
+
+}
+.icons i{ 
+    color: #7a7373;
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+   
+    border: 2px solid  #7a7373;
+    margin-left: 6px;
+    text-align: center;
+    line-height: 2.5;
+   
+    
+}
+.icons a{
+    text-decoration: none;
+}
+.Today-pick-img{
+    width: 100%;
+    
+   
+}
+/*page3*/
+.containar3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.white{
+    color: white;
+}
+
+.overlay-card{
+    height: 100%;
+    background-color: #0000004f;
+}
+.width-set {
+    width: 30%;
+
+}
+.card1-containar3{
+    background-image:  url(../images/image4.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+
+
+}
+.card1-containar3-a{
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 15%;
+    
+
+}
+.card2-containar3{
+    background-image: url(../images/image7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+   
+    
+
+
+}
+
+.card3-containar3{
+    background-image: url(../images/image8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  
+    
+    
+
+
+}
+
+.center-travel{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    border: white 2px solid;
+    background: white;
+    color: blue;
+    margin-bottom: 2%;
+}
+.center-travel:hover{
+    background-color: blue;
+    color: white;
+    border: blue 2px solid;
+}
+/*page 4 style*/
+.card1-containar4{
+    width: 60%;
+}
+.img-set-carddiv{
+    width: 30%;
+}
+.img-set-card{
+    height: 100%;
+    width: 90%;
+    
+  /*  margin-right: 3%;*/
+}
+.card-div-txt{
+    width: 70%;
+
+}
+
+.card2-containar4{
+    width: 30%;
+}
+.card2-containar4-upimg{
+    background-image: url(../images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30%;
+    position: relative;
+    margin-bottom: 3%;
+}
+.play-video{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+.card2-containar4-downimg{
+    background-image: url(../images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30%;
+    position: relative;
+    margin-bottom: 3%;
+}
+.loadmore-div{
+    text-align: center;
+}
+.loadmore{
+    border-radius: 16px;
+    border: 3px solid #afa6a6 ;
+    color: #afa6a6;
+    padding: 6px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.loadmore:hover{
+    color: white;
+    background-color: blue;
+    border: 3px solid blue ;
+    
+
+}
+/*footer*/
+.foot{
+    background-color: rgb(15, 13, 13);
+    color: white;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    
+}
+.span-style{
+    display:inline-block;
+    margin-left: 6%;
+}
+.width-footer{
+    width:35%;
+}
+.txt-footercol{
+    color: grey;
+}
+.subscribe input{
+    background-color: rgb(15, 13, 13);
+    border-bottom: 2px solid  rgb(219, 212, 212);
+    border-radius: 6px;
+    padding: 2%;
+    width: 60%;
+   
+
+
+}
+.subscribe{
+    position: relative;
+}
+ .div-span{
+    text-align: center;
+} 
+
+.a-footer{
+    position: absolute;
+    left: 59%;
+    bottom: 10%;
+}
+.icon-footer{
+    color: white;
+   
+
+
+
+}
+
+
+
+
+
+
